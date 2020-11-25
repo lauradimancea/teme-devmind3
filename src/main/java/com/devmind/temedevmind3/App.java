@@ -25,13 +25,14 @@ public class App {
         Task secondTask = context.getBean("taskPrototype", Task.class);
         System.out.println(secondTask.toString());
 
-
         Task thirdTask = context.getBean("taskPrototype", Task.class);
         System.out.println(thirdTask.toString());
 
         Task task = context.getBean("task", Task.class);
         System.out.println(task.toString());
 
+        task.setTaskName("taskSingleton");
+        System.out.println("All tasks " + task.getTaskName() + firstTask.getTaskName() + secondTask.getTaskName() + thirdTask.getTaskName());
         context.close();
 
     }

@@ -1,7 +1,12 @@
 package com.devmind.temedevmind3.beanLifecycle;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import java.util.Random;
 
+@Getter
+@Setter
 public class Task {
 
     private static final Random RANDOM = new Random();
