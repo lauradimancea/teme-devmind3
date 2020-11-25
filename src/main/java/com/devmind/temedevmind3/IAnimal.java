@@ -1,4 +1,4 @@
-package main.java;
+package com.devmind.temedevmind3;
 
 public interface IAnimal {
 

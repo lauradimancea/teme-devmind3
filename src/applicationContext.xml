@@ -6,12 +6,12 @@
     http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="someCat"
-          class="main.java.Cat">
+          class="com.devmind.temedevmind3.Cat">
     </bean>
     <bean id="someDog"
-          class="main.java.Dog">
+          class="com.devmind.temedevmind3.Dog">
     </bean>
     <bean id="someMouse"
-          class="main.java.Mouse">
+          class="com.devmind.temedevmind3.Mouse">
     </bean>
 </beans>
