@@ -1,4 +1,4 @@
-package com.devmind.temedevmind3;
+package com.devmind.temedevmind3.inversionOfControl;
 
 public class Cat implements IAnimal {
     @Override
