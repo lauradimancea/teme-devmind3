@@ -20,6 +20,12 @@ public class App {
 
         System.out.println(myThirdAnimal.makeSound());
 
+        Cat cat = context.getBean("componentCat", Cat.class);
+        System.out.println(cat.makeSound());
+
+        Pig pig = context.getBean("pig", Pig.class);
+        System.out.println(pig.makeSound());
+
         context.close();
 
     }
